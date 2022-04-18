@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	overflow: hidden;
+}
+
+.container {
+	position: absolute;
+	width: 15em;
+	height: 20em;
+	right: 1em;
+	top: -0.5em;
+}
+
+#hpicon {
+	margin-top: 1025px;
+	margin-left: 3px;
+	position: absolute;
+	color: rgba(255,87,87,1);
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+#hp {
+	background: black; 
+	width: 220px;
+	height: 18px;
+	margin-top: 1025px;
+	margin-left: 23px;
+	position: absolute;
+	border-radius: 3px 3px;
+}
+
+#hpbar {
+	background-color: rgba(255,87,87,1);
+	width: 216px;
+	height: 14px;
+	margin-top: 1026.5px;
+	margin-left: 25px;
+	position: absolute;
+	border-radius: 3px 3px;
+}
+
+.anim {
+	width: 100%;
+	transition: width 0.8s;		
+}
